@@ -77,7 +77,7 @@ const Header = () => {
                             <img src="/assets/icons/shop-cart.svg" className={styles.cart__icon} alt="cart" />
                             <span className={styles.cart__count}>0</span>
                         </Link>
-                        <div className="d-inline-flex items-center m-l-16">
+                        <div className={styles.login__box}>
                             <Link to={'/auth/login'} className={styles.user__icon}>
                                 <SlUser />
                             </Link>

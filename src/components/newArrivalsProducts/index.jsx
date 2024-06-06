@@ -21,7 +21,7 @@ const NewArrivalsProducts = () => {
             </div> 
             <div className='divider'></div>
             <Swiper
-                spaceBetween={20} 
+                spaceBetween={10} 
                 breakpoints={{ 
                     1400: {
                         slidesPerView:4,
@@ -37,11 +37,11 @@ const NewArrivalsProducts = () => {
                     },
                     540: {
                         slidesPerView: 2,
-                        spaceBetween: 20
+                        spaceBetween: 10
                     },
                     320: {
                         slidesPerView: 2,
-                        spaceBetween: 20
+                        spaceBetween: 10
                     },
                 }}
                 autoplay={{ delay: 1000, disableOnInteraction: false, waitForTransition: false }} // Add autoplay prop here

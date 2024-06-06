@@ -33,6 +33,9 @@
             color: var(--orange);
         }
     }
+    .login__box {
+        margin-left: .875rem;display: inline-flex;align-items: center;
+    }
 }
 
 @media (max-width:991px) {
