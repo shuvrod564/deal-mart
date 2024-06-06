@@ -64,7 +64,7 @@ const Header = () => {
                 <div className="container d-flex justify-between items-center relative">
 
                     <Link to="/" >
-                        <img src="/src/assets/logo.svg" className={styles.logo} alt="logo" />
+                        <img src="/images/logo.svg" className={styles.logo} alt="logo" />
                     </Link>
 
                     <Search />
