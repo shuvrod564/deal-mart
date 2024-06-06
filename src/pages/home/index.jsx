@@ -14,15 +14,33 @@ import ProductCard from '../../components/productCard';
 import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+
+ 
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css'; 
+import NewArrivalsProducts from '../../components/newArrivalsProducts';
  
 const Home = () => {
 
-    var settingsHomeProduct = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
+    var featheredSliderSetting = {
+        spaceBetween: 20,
+        slidesPerView: 3,
+        loop: true,
+        autoplay: true,
+        breakpoint: {
+            640: {
+                slidesPerView: 1,
+                spaceBetween: 20,
+              },
+              768: {
+                slidesPerView: 2,
+                spaceBetween: 40,
+              },
+              1024: {
+                slidesPerView: 3,
+                spaceBetween: 50,
+              },
+        }
     };
 
     const houseProduct = Products.products.filter((product)=>{
@@ -31,7 +49,7 @@ const Home = () => {
  
     const allProduct = Products.products.filter((product)=>{
         return product.category ==  'all'
-    }) 
+    })  
 
   return (
     <>
@@ -62,13 +80,40 @@ const Home = () => {
                             <Title level={2} className='h2 m-b-0'>Featured Household Items</Title> 
                         </div> 
                         <div className='divider'></div>
-                        <Slider className={`product__carousel owl-theme `} {...settingsHomeProduct}>
+                        <div className="swiper-container">
+
+                        </div>
+                        <Swiper 
+                            spaceBetween={20} 
+                            breakpoints={{  
+                                1200: {
+                                    slidesPerView: 3,
+                                    spaceBetween: 20
+                                },
+                                768: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20
+                                },
+                                540: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20
+                                },
+                                320: {
+                                    slidesPerView: 2,
+                                    spaceBetween: 20
+                                },
+                            }}
+                            autoplay={{ delay: 1000, disableOnInteraction: false, waitForTransition: false }} // Add autoplay prop here
+                            speed={2000} 
+                        >
                             {
                                 houseProduct.map((product,index)=>{
-                                    return <ProductCard key={index} product={product} /> 
+                                    return <SwiperSlide key={index}>
+                                        <ProductCard product={product} /> 
+                                        </SwiperSlide>
                                 })
                             }
-                        </Slider>
+                        </Swiper>
                     </Col>
                 </Row>
             </div>
@@ -100,28 +145,14 @@ const Home = () => {
         {/* Category Items End */}
 
         {/* Product Listing Start */}
-        <div className={styles.featured__wrapper}>
-            <div className="container"> 
-                <div className="d-flex items-center justify-between">
-                    <Title level={2} className='h2 m-b-0'>New Arrivals</Title> 
-                </div> 
-                <div className='divider'></div>
-                <Slider className='product__carousel' {...settingsHomeProduct}>
-                    {
-                        houseProduct.map((product,index)=>{
-                            return <ProductCard key={index} product={product} /> 
-                        })
-                    }
-                </Slider>
-            </div>
-        </div>
+        <NewArrivalsProducts /> 
         {/* Product Listing End */}
 
         {/* Best Selling Listing Start */}
         <div className={styles.featured__wrapper}>
             <div className="container"> 
                 <div className="d-flex items-center justify-between">
-                    <Title level={2} className='h2 m-b-0'>New Arrivals</Title> 
+                    <Title level={2} className='h2 m-b-0'>Featured Products</Title> 
                 </div> 
                 <div className='divider'></div>
                 <Row gutter={[10,10]}>

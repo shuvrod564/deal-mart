@@ -1,0 +1,28 @@
+.featured__wrapper {
+    padding: 20px 0;
+
+    .h2 { margin-bottom: 0; }
+    
+    .offer__box {
+        border-radius: var(--br);
+        background-color: var(--blue);padding: 30px;
+
+        .thumbnail {
+            max-height: 282px;
+            margin: 0% auto;
+        }
+    }
+}
+
+.category_wrapper {
+    padding: 30px 0;
+}
+
+
+
+
+@media (max-width: 991px) {
+    .featured__wrapper {
+        .offer__box { display: none; }
+    }
+}
