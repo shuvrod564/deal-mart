@@ -1,0 +1,60 @@
+.float-label {
+    position: relative;
+    width: 100%;
+
+    .label {
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 12px;
+        top: 9px;
+        transition: 0.2s ease all;
+        font-size: 15px;
+        font-weight: 500;
+        font-family: var(--body-font);
+        color: var(--blue);
+    }
+    
+    .as-placeholder {
+        color: var(--grey);
+        font-size: 12px;
+        font-family: var(--inter);
+        font-weight: 400;
+        top: 11px;
+    }
+    
+    .as-label {
+        top: -10px;
+        font-size: 15px !important;
+        background: white;
+        padding: 0 4px;
+        margin-left: -4px;
+        
+    }
+
+    .ant-input {
+        border-color: var(--blue) !important;
+        border-width: 1px !important;
+        border-radius: 3px !important;
+        width: 100%;
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    &.transparent {
+        .ant-input { background-color: transparent; }
+        .as-label { background-color: var(--bg-blue-light); }
+    }
+    &.login {
+        .as-placeholder {
+            color: var(--grey);
+            font-size: 15px;font-weight: 500; 
+            top: 12px;
+        }
+        .ant-input {
+            height: 48px;padding: 10px 11px;font-weight: 500;
+        }
+    }
+}

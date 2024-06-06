@@ -1,0 +1,18 @@
+
+.search__box {
+    width: 100%;max-width: 600px; 
+
+    .ant-input-suffix {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 991px) {
+    .search__box {
+        position: absolute;
+        top: calc(100% + 10px);
+        left: 17px;
+        z-index: 999;
+        max-width: calc(100% - 33px);
+    }
+}

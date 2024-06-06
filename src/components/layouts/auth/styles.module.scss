@@ -1,0 +1,18 @@
+
+.auth__layout{
+    padding: 50px 60px;min-height: 100vh;
+}
+
+@media (max-width: 991px) {
+    .auth__layout{
+        padding: 50px 60px;
+        flex-direction: row;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .auth__layout{
+        padding: 10px 10px; 
+    }
+}

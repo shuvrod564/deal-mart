@@ -1,0 +1,70 @@
+
+
+.main__menubar {
+    background-color: var(--brand);padding: 10px 0; 
+
+    .logo { max-height: 50px; }
+
+    .action__btn {
+        font-size: 1.5rem;color: var(--white);line-height: 1;margin-left: 10px;position: relative;
+        width: 40px;height:40px;display: flex;justify-content:center; align-items: center;
+
+        .cart__icon {
+            max-height: 30px;
+        }
+        .cart__count { 
+            position: absolute;top: 8px;left: 50%;font-size: 15px;font-weight: 600;
+            color: var(--orange);transform: translateX(-50%);margin-left: 2px;
+        }
+    }
+
+    .user__icon {
+        font-size: 1.5rem;color: var(--white);width: 32px;display: inline-block;padding-top: 3px;
+    }
+    .auth__link {
+        color: var(--white);padding: 1px 0;text-transform: uppercase;
+        display: block;width: 100%;font-size: 12px;font-weight: 500;
+
+        &.signup {
+            color: var(--grey-light);
+        }
+
+        &:hover { 
+            color: var(--orange);
+        }
+    }
+}
+
+@media (max-width:991px) {
+    .main__menubar {
+        min-height: 115px;
+    }
+}
+
+@media (max-width:575px) {
+    .main__menubar {
+        .logo { max-height: 40px; }
+        .auth__link {
+            display: none;
+        }
+        .user__icon {
+            font-size: 1.25rem;width: 22px;
+        }
+        .action__btn {
+            font-size: 1.25rem;margin-left: 8px; 
+            width: 32px;height:32px; 
+    
+            .cart__icon {
+                max-height: 26px;
+            }
+            .cart__count { 
+                top: 5px;left: 50%;font-size: 11px; 
+            }
+        }
+    }
+}
+
+
+.mega__menu {
+    background-color: var(--white);
+}

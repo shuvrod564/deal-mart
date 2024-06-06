@@ -1,0 +1,25 @@
+.filter__wrapp {
+    background-color: var(--white);
+    padding: 15px;
+
+    .filter__title {
+        font-size: 18px;font-weight: 600;color: var(--dark);
+    }
+
+    .cat__list {
+        .list__item {
+            margin-bottom: 8px;
+
+            .link {
+                font-weight: 500;
+                color: var(--grey);
+                text-transform: capitalize;
+                font-size: 15px;
+
+                &:hover {
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+}

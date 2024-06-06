@@ -1,0 +1,28 @@
+
+
+.category__item {
+    
+    .thumbnail__box {
+        display: block;
+
+        .thumbnail {
+            width: 100%;
+            height: 170px;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+
+    .title {
+        text-transform: uppercase;color: var(--grey);text-align: center;display: block;
+        padding-top: 10px;font-weight: 500;
+    }
+}
+
+.category__wrapper {
+    padding: 50px 0;
+}
+
+@media (max-width: 991px) {
+    .category__wrapper { padding: 20px 0; }
+}

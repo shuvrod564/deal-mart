@@ -1,0 +1,102 @@
+
+.newsletter__wrapp { 
+    margin-top: 45px;
+    margin-bottom: 25px;
+    .content__box {
+        background-color: var(--orange);border-radius: var(--br);
+        padding: 30px 30px;
+    }
+    .news__title {
+        font-size:22px !important;color: var(--white);
+    }
+    .desc { color: var(--white); }
+
+    .search__box {
+        display: flex;
+        margin-bottom: 12px;
+
+        .input {
+            border-radius: var(--br) 0 0 var(--br);
+            border: 0;
+            height: 53px;
+            font-weight: 500;
+            color: #000000d9;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        .submit__btn {
+            border-radius: 0 var(--br) var(--br) 0;
+            height: 53px;font-size: 18px;font-weight: 500;
+        }
+    }
+}
+
+
+.footer {
+    background-color: #ffffff;
+    padding-top: 35px;
+
+    .title { color: var(--grey);font-weight: 500;font-size: 17px;margin-bottom: 10px; }
+
+    .link__list {
+        .list__item {
+            list-style-type: none;
+            margin-bottom: .65rem;
+
+            .link {
+                color: var(--grey);
+                text-decoration: none;
+                transition: all .3s ease-in-out;
+
+                &:hover {
+                    text-decoration: underline;
+                    color: var(--blue);
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) { 
+    .newsletter__wrapp { 
+        margin-top: 25px;
+        margin-bottom: 15px;
+        .content__box { 
+            padding: 20px 15px;
+        }
+        .news__title {
+            font-size:18px !important; 
+        }
+        .desc { font-size: 13px; }
+
+        .search__box { 
+
+            .input { 
+                height: 42px; 
+            }
+            .submit__btn { 
+                height: 42px;font-size: 14px; 
+            }
+        }
+    }
+
+    .footer { 
+        padding-top: 25px;
+    
+        .title { font-size: 14px;margin-bottom: 7px; }
+    
+        .link__list {
+            .list__item {
+                list-style-type: none;
+                margin-bottom: .45rem;
+    
+                .link {
+                    font-size: 13px; 
+                }
+            }
+        }
+    }
+
+}

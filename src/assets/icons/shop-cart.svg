@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+	<title>shop-cart</title>
+	<defs>
+		<image  width="64" height="56" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA4CAMAAAB6xg5AAAAAAXNSR0IB2cksfwAAAYlQTFRF/4ct/5IkAAAA/44r/44q/4su/40q/48r/4su/44q/44p/44q/44r/48r/5Uq/44r/40s/40r/44r/44r/44r/44r/44q/48s/48r/40q/44r/48v/48r/40q/44r/44q/44p/44q/44r/38//44q/4oq/4wt/44r/44r/44r/40r/4gz/44s/40q/44r/4kn/48q/48q/48q/44q/44r/5kz/44q/40r/44r/4ws/44r/48o/40s/40r/44r/48r/44r/40r/40p/44p/48s/40r/48r/44r/44r/48r/44v/44r/44s/44q/44r/48q/44q/40r/40r/44r/44q/48r/44s/44q/40q/5It/48q/40r/44q/40r/44q/48r/44t/44r/44q/44r/40p/5As/44r/48q/5Iw/40r/5Ap/44r/44r/48s/44r/6pV/4wq/44q/48r/44r/44q/44q/40q/44q/5At/44q/444/38A/48r/4wq/44q/48r/48r/38f/5Ikq9uqHwAAAIN0Uk5TEQ4A//ULVaoh+1a5q2QM+Ve4rGNYt61i93nbEFmLtq49YewEWhgzz6C1rw9RYPgNW6iztLAF72VfRf0ZXJTIsd9eMStdgNyyzo0b/j9s7bqiU6b6Eu5o9kMckcp4d+R9LeCQuzgub2YVcDeM80ueAyrwdsneo3LFJ9gJAsM8/NVACAfEoe3zAAACKUlEQVR4nO3W6V/TQBAG4HaCihflUAERECi3tKWA1gJyiCL3oYCIinJ4n3grKvCX8+7G1G2TbKbdr8ynzu6bh06y+ZVQKFNhKqRCVqaKjhkC1nFT4IQpUNAMzh0sPgnhVCGA8+E0gDMmwFkxQ4kBEIpAKDUAqAxAuQlQUdgM/wE5wzkDgM4DuGACVAKoyrxR1RarLipAjZjhUp5ArQJQHRbq8wQuq0CDOgMPaGxSAfkcov+a5pagakW6Tb2JRO1Y6uDe/k7x565kA13qDEEVRTgWzwbkc0gwgW5kk5QNUA8We3nX911F9loukBJfq5MFXEc03Z8L1MSwPMACBpG8QbkAJbE8xAKGkax2AyPcGUbFMbrpBsJVWB9jALeQu01ugMaxMc4A7iA34QWMYSOSu+iuySnkpr0AOcNIIDCD1GyTFyBnSAYCc0jNkyfAmiEszvyCNxAXM6QCgFL7RfIEaAibPQHAIjJ15AMMYPPuPe31fUvILPsB8RXsdmmB+0hMrfoB1Ivtdi3wAIk18gUS4jk8fKSpx0is+wNyhsB64g9QB+P6p6QBogxgQwfE5zYDa0sH5FVHgBbYfvZ8Uu1fNLx8lQ/wOm1Zb5QfyreNePzv3rOBlDwvsQ9Ov/pRLuywgU/2iZtw+h27H2YDn+0Lvjh9rd2vsIF6+4KvTp+w+29s4Lt8qX/8dPpfu6JP/2YD1LJm/SnvV5JtEevvniumO0gl+9n9gde/T4cvq2YTyszO+wAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: #0d2137 } 
+	</style>
+	<use id="Background" href="#img1" x="0" y="4"/>
+	<path id="Shape 1" class="s0" d="m24 16h34v5h-34z"/>
+	<path id="Shape 2" class="s0" d="m57 12h7v9h-7z"/>
+	<path id="Shape 3" class="s0" d="m23 19h35v3h-35z"/>
+</svg>
