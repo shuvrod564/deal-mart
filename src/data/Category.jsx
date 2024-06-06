@@ -42,5 +42,35 @@ export default  {
             title: "household appliances",
             thumbnail: '/assets/categories/movies-television.jpg'
         },
+        {
+            id: 'cat007',
+            slug: 'household-appliances',
+            title: "Tech enthusiasts",
+            thumbnail: '/assets/categories/Tech-enthusiasts.jpg'
+        },
+        {
+            id: 'cat008',
+            slug: 'wardrobe-organisers',
+            title: "Wardrobe Organisers",
+            thumbnail: '/assets/categories/Wardrobe-Organisers.jpg'
+        },
+        {
+            id: 'cat009',
+            slug: 'fashion',
+            title: "Fashion",
+            thumbnail: '/assets/categories/Fashion.jpg'
+        },
+        {
+            id: 'cat010',
+            slug: 'sports-sandals',
+            title: "Sports Sandals",
+            thumbnail: '/assets/categories/Sports-Sandals.jpg'
+        },
+        {
+            id: 'cat010',
+            slug: 'trimmers-groomers-clippers',
+            title: "Trimmers, Groomers & Clippers",
+            thumbnail: '/assets/categories/Trimmers-Groomers-Clippers.jpg'
+        },
     ]
 }
