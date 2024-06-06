@@ -20,13 +20,13 @@ const IntroProductCarousel = () => {
          
             <Slider className={`hero__carousel`} {...settingsHomeProduct}>
                 <div> 
-                    <img src="/src/assets/slider/slider-one.jpg" className="banner" alt="slider image" />
+                    <img src="/assets/slider/slider-one.jpg" className="banner" alt="slider image" />
                 </div> 
                 <div> 
-                    <img src="/src/assets/slider/slider-two.jpg" className="banner" alt="slider image" />
+                    <img src="/assets/slider/slider-two.jpg" className="banner" alt="slider image" />
                 </div> 
                 <div> 
-                    <img src="/src/assets/slider/slider-three.jpg" className="banner" alt="slider image" />
+                    <img src="/assets/slider/slider-three.jpg" className="banner" alt="slider image" />
                 </div>  
             </Slider>
         </div>

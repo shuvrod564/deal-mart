@@ -64,7 +64,7 @@ const Header = () => {
                 <div className="container d-flex justify-between items-center relative">
 
                     <Link to="/" >
-                        <img src="/images/logo.svg" className={styles.logo} alt="logo" />
+                        <img src="/assets/logo.svg" className={styles.logo} alt="logo" />
                     </Link>
 
                     <Search />
@@ -74,7 +74,7 @@ const Header = () => {
                             <BsSuitHeart />
                         </Link>
                         <Link to="/wish-list" className={styles.action__btn}>
-                            <img src="/src/assets/icons/shop-cart.svg" className={styles.cart__icon} alt="cart" />
+                            <img src="/assets/icons/shop-cart.svg" className={styles.cart__icon} alt="cart" />
                             <span className={styles.cart__count}>0</span>
                         </Link>
                         <div className="d-inline-flex items-center m-l-16">

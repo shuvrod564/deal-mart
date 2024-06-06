@@ -9,7 +9,7 @@ export default {
             ratings: "79",
             stock: "34",
             slug: "washing-machine-for-household-use",
-            thumbnail: "/src/assets/products/washing-machine-for-household-use.jpg"
+            thumbnail: "/assets/products/washing-machine-for-household-use.jpg"
         },
         {
             id:"p002",
@@ -20,7 +20,7 @@ export default {
             ratings: "79",
             stock: "54",
             slug: "greenlife-3-in-1-breakfast-maker-station",
-            thumbnail: "/src/assets/products/greenlife-3-in-1-breakfast-maker-station.jpg"
+            thumbnail: "/assets/products/greenlife-3-in-1-breakfast-maker-station.jpg"
         },
         {
             id:"p003",
@@ -31,7 +31,7 @@ export default {
             ratings: "44",
             stock: "22",
             slug: "kitchenaid-classic-series-stand-mixer",
-            thumbnail: "/src/assets/products/kitchenaid-classic-series-stand-mixer.jpg"
+            thumbnail: "/assets/products/kitchenaid-classic-series-stand-mixer.jpg"
         },
         {
             id:"p004",
@@ -42,7 +42,7 @@ export default {
             ratings: "44",
             stock: "22",
             slug: "hamilton-beach-dual-breakfast-sandwich-maker-with-timer",
-            thumbnail: "/src/assets/products/hamilton-beach-dual-breakfast-sandwich-maker-with-timer.jpg"
+            thumbnail: "/assets/products/hamilton-beach-dual-breakfast-sandwich-maker-with-timer.jpg"
         },
         {
             id:"p005",
@@ -53,7 +53,7 @@ export default {
             ratings: "66",
             stock: "0",
             slug: "crock-pot-7-quart-oval-manual-slow-cooker",
-            thumbnail: "/src/assets/products/crock-pot-7-quart-oval-manual-slow-cooker.jpg"
+            thumbnail: "/assets/products/crock-pot-7-quart-oval-manual-slow-cooker.jpg"
         },
         {
             id:"p006",
@@ -64,7 +64,7 @@ export default {
             ratings: "66",
             stock: "6",
             slug: "hamilton-beach-power-elite-wave-action-blender-for-shakes",
-            thumbnail: "/src/assets/products/hamilton-beach-power-elite-wave-action-blender-for-shakes.jpg"
+            thumbnail: "/assets/products/hamilton-beach-power-elite-wave-action-blender-for-shakes.jpg"
         },
         {
             id:"p007",
@@ -75,7 +75,7 @@ export default {
             ratings: "66",
             stock: "76",
             slug: "mack-ultra-soft-foam-earplugs-50-pair",
-            thumbnail: "/src/assets/products/mack-ultra-soft-foam-earplugs-50-pair.jpg"
+            thumbnail: "/assets/products/mack-ultra-soft-foam-earplugs-50-pair.jpg"
         },
         {
             id:"p008",
@@ -86,7 +86,7 @@ export default {
             ratings: "66",
             stock: "46",
             slug: "playtex-sport-tampons-multipack",
-            thumbnail: "/src/assets/products/playtex-sport-tampons-multipack.jpg"
+            thumbnail: "/assets/products/playtex-sport-tampons-multipack.jpg"
         },
         {
             id:"p009",
@@ -97,7 +97,7 @@ export default {
             ratings: "17",
             stock: "15",
             slug: "carefree-acti-fresh-panty-liners",
-            thumbnail: "/src/assets/products/carefree-acti-fresh-panty-liners.jpg"
+            thumbnail: "/assets/products/carefree-acti-fresh-panty-liners.jpg"
         },
         {
             id:"p010",
@@ -108,7 +108,7 @@ export default {
             ratings: "34",
             stock: "22",
             slug: "breathe-right-extra-clear-drugfree-nasal-strips-for-nasal-congestion",
-            thumbnail: "/src/assets/products/breathe-right-extra-clear-drugfree-nasal-strips-for-nasal-congestion.jpg"
+            thumbnail: "/assets/products/breathe-right-extra-clear-drugfree-nasal-strips-for-nasal-congestion.jpg"
         },
         {
             id:"p011",
@@ -119,7 +119,7 @@ export default {
             ratings: "24",
             stock: "12",
             slug: "google-nest-learning-thermostat",
-            thumbnail: "/src/assets/products/google-nest-learning-thermostat.jpg"
+            thumbnail: "/assets/products/google-nest-learning-thermostat.jpg"
         },
         {
             id:"p012",
@@ -130,7 +130,7 @@ export default {
             ratings: "345",
             stock: "55",
             slug: "wyze-programmable-smart-wifi-thermostat-for-home",
-            thumbnail: "/src/assets/products/wyze-programmable-smart-wifi-thermostat-for-home.jpg"
+            thumbnail: "/assets/products/wyze-programmable-smart-wifi-thermostat-for-home.jpg"
         },
         {
             id:"p013",
@@ -141,7 +141,7 @@ export default {
             ratings: "345",
             stock: "55",
             slug: "wyze-plug-outdoor-dual-outlets-energy-monitoring-ip64-2.4ghz-wifi-smart-plug",
-            thumbnail: "/src/assets/products/wyze-plug-outdoor-dual-outlets-energy-monitoring-ip64-2.4ghz-wifi-smart-plug.jpg"
+            thumbnail: "/assets/products/wyze-plug-outdoor-dual-outlets-energy-monitoring-ip64-2.4ghz-wifi-smart-plug.jpg"
         },
         {
             id:"p013",
@@ -152,7 +152,7 @@ export default {
             ratings: "345",
             stock: "55",
             slug: "outdoor-smart-plug-meross-outdoor-wi-fi-outlet-with-3-sockets",
-            thumbnail: "/src/assets/products/outdoor-smart-plug-meross-outdoor-wi-fi-outlet-with-3-sockets.jpg"
+            thumbnail: "/assets/products/outdoor-smart-plug-meross-outdoor-wi-fi-outlet-with-3-sockets.jpg"
         },
     ]
 }

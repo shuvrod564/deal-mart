@@ -13,7 +13,7 @@ const ProductDetail = () => {
             <div className="container">
                 <Row gutter={[24,10]}>
                   <Col lg={12}>
-                    <img src="/src/assets/products/71GFQfWO+DL._AC_SX679_.jpg" alt="img" />
+                    <img src="/assets/products/71GFQfWO+DL._AC_SX679_.jpg" alt="img" />
                   </Col>
                   <Col lg={12}>
                     <h1>GreenLife 3-in-1 Breakfast Maker Station, Healthy Ceramic Nonstick Dual Griddles for Eggs Meat and Pancakes</h1>

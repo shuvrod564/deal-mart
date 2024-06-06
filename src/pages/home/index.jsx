@@ -71,7 +71,7 @@ const Home = () => {
                             <p className='tt-uppercase text-white'>Days Offer</p>
                             <Button type='primary'>Shop Now</Button>
                             <Link to="/products" className='d-block m-t-20 text-center'>
-                                <img src="/src/assets/products/featured-household-product.png" className={styles.thumbnail} alt="Product Image" />
+                                <img src="/assets/products/featured-household-product.png" className={styles.thumbnail} alt="Product Image" />
                             </Link>
                         </div>
                     </Col>
@@ -126,17 +126,17 @@ const Home = () => {
                 <Row gutter={[16,16]}>
                     <Col md={8} sm={12} xs={24}>
                         <Link to={'/'} className='d-block'>
-                            <img src="/src/assets/categories/Monitor-Asus-24Gamer.jpg" className='w-full round' alt="category-banner" />
+                            <img src="/assets/categories/Monitor-Asus-24Gamer.jpg" className='w-full round' alt="category-banner" />
                         </Link>
                     </Col>
                     <Col md={8} sm={12} xs={24}>
                         <Link to={'/'} className='d-block'>
-                            <img src="/src/assets/categories/sexualidade.jpg" className='w-full round' alt="category-banner" />
+                            <img src="/assets/categories/sexualidade.jpg" className='w-full round' alt="category-banner" />
                         </Link>
                     </Col>
                     <Col md={8} sm={12} xs={24}>
                         <Link to={'/'} className='d-block'>
-                            <img src="/src/assets/categories/Whirlpool.jpg" className='w-full round' alt="category-banner" />
+                            <img src="/assets/categories/Whirlpool.jpg" className='w-full round' alt="category-banner" />
                         </Link>
                     </Col>
                 </Row>

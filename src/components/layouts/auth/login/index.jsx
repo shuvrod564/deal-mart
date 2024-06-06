@@ -18,7 +18,7 @@ const Login = () => {
             <Row gutter={[10,10]} align='middle'>
                 <Col lg={10} md={24} sm={24} xs={24} className={`${styles.logo__col} d-flex justify-center items-cente`}>
                     <div className={`${styles.logo__box} d-flex justify-center items-center`}>
-                        <img src="/src/assets/logo.svg" alt="logo" className={styles.logo} />
+                        <img src="/assets/logo.svg" alt="logo" className={styles.logo} />
                     </div>
                 </Col>
                 <Col lg={14} md={24} sm={24} xs={24} className={styles.form__col}>
