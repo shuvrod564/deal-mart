@@ -10,26 +10,24 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "antd": "^5.4.7",
-    "jQuery": "^1.7.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "antd": "^5.18.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "react-helmet": "^6.1.0",
-    "react-icons": "^4.8.0",
-    "react-owl-carousel": "^2.3.3",
-    "react-router-dom": "^6.11.1",
-    "react-slick": "^0.29.0",
+    "react-icons": "^5.2.1",
+    "react-router-dom": "^6.23.1",
+    "react-slick": "^0.30.2",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^4.0.0",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "sass": "^1.62.1",
-    "vite": "^4.3.2"
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-react": "^7.34.2",
+    "eslint-plugin-react-hooks": "^4.6.2",
+    "eslint-plugin-react-refresh": "^0.4.7",
+    "sass": "^1.77.4",
+    "vite": "^5.2.12"
   }
 }

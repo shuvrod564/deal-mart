@@ -1,0 +1,23 @@
+.wishlist__wrapper {
+    padding: 4rem 0;
+
+    .product__box {
+        border: 1px solid #ccc;padding: 1.25rem;border-radius: var(--br-lg);background:#fff;
+        display: flex;flex-direction: row;
+
+        .product__thumbnail {
+            width: 30%;
+        }
+        .product__content {
+            width: 70%;padding-left: 1rem;
+
+            .product__title {
+                font-size: 1rem;overflow: hidden;text-overflow: ellipsis;-webkit-box-orient: vertical;-webkit-line-clamp: 3;display: -webkit-box;
+                white-space: normal;
+            }
+            .product__price {
+                font-size: 1.25rem;font-weight: 600;margin-bottom: .25rem;
+            }
+        }
+    }
+}

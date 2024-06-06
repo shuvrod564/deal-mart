@@ -6,31 +6,23 @@ import IntroProductCarousel from '../../components/introProductCarousel/index';
 const { Title } = Typography;
 
 import  styles from './styles.module.scss'
-import { Link } from 'react-router-dom';
- 
-import OwlCarousel from 'react-owl-carousel';
-import 'owl.carousel/dist/assets/owl.carousel.css';
-import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom'; 
  
 import Categories from './../../components/categories/index';
 import Products from '../../data/Products';
 import ProductCard from '../../components/productCard';
+import Slider from 'react-slick';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
  
 const Home = () => {
 
     var settingsHomeProduct = {
-        dots: false, 
-        autoplay: true,
-        autoplaySpeed: 2000,
-        loop: true,
-        nav: true,
-        responsive: {
-            0: { items:2, margin:7 },
-            576: { items: 2, margin:13 },
-            768: { items: 3, margin:13 },
-            992: { items: 3, margin:13 },
-            1200: { items: 4, margin:13 },
-        } 
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
     };
 
     const houseProduct = Products.products.filter((product)=>{
@@ -70,13 +62,13 @@ const Home = () => {
                             <Title level={2} className='h2 m-b-0'>Featured Household Items</Title> 
                         </div> 
                         <div className='divider'></div>
-                        <OwlCarousel className={`product__carousel owl-theme `} {...settingsHomeProduct}>
+                        <Slider className={`product__carousel owl-theme `} {...settingsHomeProduct}>
                             {
                                 houseProduct.map((product,index)=>{
                                     return <ProductCard key={index} product={product} /> 
                                 })
                             }
-                        </OwlCarousel>
+                        </Slider>
                     </Col>
                 </Row>
             </div>
@@ -114,13 +106,13 @@ const Home = () => {
                     <Title level={2} className='h2 m-b-0'>New Arrivals</Title> 
                 </div> 
                 <div className='divider'></div>
-                <OwlCarousel className='owl-theme product__carousel' {...settingsHomeProduct}>
+                <Slider className='product__carousel' {...settingsHomeProduct}>
                     {
                         houseProduct.map((product,index)=>{
                             return <ProductCard key={index} product={product} /> 
                         })
                     }
-                </OwlCarousel>
+                </Slider>
             </div>
         </div>
         {/* Product Listing End */}
